@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSet", "NuSet\NuSet.csproj", "{5E900031-EE18-406E-8BC0-E185D7081D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSet_IntegrationTests", "NuSet\NuSet_IntegrationTests\NuSet_IntegrationTests.csproj", "{A9040B26-A3C6-43BC-B082-3C7522829AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15C21CC5-620F-46A9-8A49-2639821AF70C}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSet_UnitTests", "NuSet\NuSet_UnitTests\NuSet_UnitTests.csproj", "{FEB743FB-AB60-4124-A363-149BC7F795C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E900031-EE18-406E-8BC0-E185D7081D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E900031-EE18-406E-8BC0-E185D7081D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E900031-EE18-406E-8BC0-E185D7081D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E900031-EE18-406E-8BC0-E185D7081D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9040B26-A3C6-43BC-B082-3C7522829AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9040B26-A3C6-43BC-B082-3C7522829AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9040B26-A3C6-43BC-B082-3C7522829AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9040B26-A3C6-43BC-B082-3C7522829AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB743FB-AB60-4124-A363-149BC7F795C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB743FB-AB60-4124-A363-149BC7F795C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB743FB-AB60-4124-A363-149BC7F795C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB743FB-AB60-4124-A363-149BC7F795C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
