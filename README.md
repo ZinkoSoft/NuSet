@@ -1,11 +1,4 @@
-    )        (                
- ( /(        )\ )          )  
- )\())   (  (()/(   (   ( /(  
-((_)\   ))\  /(_)) ))\  )\()) 
- _((_) /((_)(_))  /((_)(_))/  
-| \| |(_))( / __|(_))  | |_   
-| .` || || |\__ \/ -_) |  _|  
-|_|\_| \_,_||___/\___|  \__|  
+NuSet
 =====
 
 An open sourced Visual Studio 2013 Extension used to easily create NuGet packages out of class libraries.
