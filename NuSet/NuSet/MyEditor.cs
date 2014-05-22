@@ -4,7 +4,7 @@ using System.Security.Permissions;
 using System.Runtime.InteropServices;
 using tom;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     public partial class MyEditor : UserControl
     {
@@ -19,7 +19,7 @@ namespace JamesZinkovitch.NuSet
             this.richTextBoxCtrl.WordWrap = false;
             this.richTextBoxCtrl.HideSelection = false;
             
-            m_Recorder = new VSMacroRecorder(GuidList.guidNuSetEditorFactory);
+            m_Recorder = new VSMacroRecorder(GuidList.NuSetEditoryFactoryGuid);
         }
 
         public EditorTextBox RichTextBoxControl

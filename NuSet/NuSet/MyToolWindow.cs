@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.Shell;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     /// <summary>
     /// This class implements the tool window exposed by this package and hosts a user control.
@@ -19,7 +19,7 @@ namespace JamesZinkovitch.NuSet
     /// This class derives from the ToolWindowPane class provided from the MPF in order to use its 
     /// implementation of the IVsUIElementPane interface.
     /// </summary>
-    [Guid("aad2c0fa-0606-4166-80da-af273526e82c")]
+    [Guid("94f39e53-7ad2-4735-b76f-f379fed83487")]
     public class MyToolWindow : ToolWindowPane
     {
         /// <summary>

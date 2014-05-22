@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     /// <summary>
     /// Interaction logic for MyControl.xaml

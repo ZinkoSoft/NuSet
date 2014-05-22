@@ -15,7 +15,7 @@ using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VsSDK.UnitTestLibrary;
-using JamesZinkovitch.NuSet;
+using ZinkoSoft.NuSet;
 
 namespace NuSet_UnitTests.EditorTests
 {

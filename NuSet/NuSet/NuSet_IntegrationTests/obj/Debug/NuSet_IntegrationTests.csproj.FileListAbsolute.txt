@@ -1,0 +1,11 @@
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\Templates\NuSet.nuset
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\Templates\NuSet.vsdir
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\NuSet_IntegrationTests.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\NuSet_IntegrationTests.pdb
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\NuSet.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\NuSet.pdb
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.pdb
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\obj\Debug\NuSet_IntegrationTests.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\obj\Debug\NuSet_IntegrationTests.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\NuSet\NuSet\NuSet_IntegrationTests\obj\Debug\NuSet_IntegrationTests.pdb

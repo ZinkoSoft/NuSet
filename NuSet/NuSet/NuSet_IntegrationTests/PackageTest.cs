@@ -49,7 +49,7 @@ namespace NuSet_IntegrationTests
 
                 //Validate package load
                 IVsPackage package;
-                Guid packageGuid = new Guid(JamesZinkovitch.NuSet.GuidList.guidNuSetPkgString);
+                Guid packageGuid = new Guid(ZinkoSoft.NuSet.GuidList.NuSetPackageGuidString);
                 Assert.IsTrue(0 == shellService.LoadPackage(ref packageGuid, out package));
                 Assert.IsNotNull(package, "Package failed to load");
 

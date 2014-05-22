@@ -1,5 +1,5 @@
 ﻿
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     partial class EditorTextBox
     {

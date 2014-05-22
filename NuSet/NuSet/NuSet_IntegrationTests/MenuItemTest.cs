@@ -42,10 +42,10 @@ namespace NuSet_IntegrationTests
         {
             UIThreadInvoker.Invoke((ThreadInvoker)delegate()
             {
-                CommandID menuItemCmd = new CommandID(JamesZinkovitch.NuSet.GuidList.guidNuSetCmdSet, (int)JamesZinkovitch.NuSet.PkgCmdIDList.NuSet);
+                CommandID menuItemCmd = new CommandID(ZinkoSoft.NuSet.GuidList.NuSetCommandGuid, (int)ZinkoSoft.NuSet.PkgCmdIDList.nusetCommand);
 
                 // Create the DialogBoxListener Thread.
-                string expectedDialogBoxText = string.Format(CultureInfo.CurrentCulture, "{0}\n\nInside {1}.MenuItemCallback()", "NuSet", "JamesZinkovitch.NuSet.NuSetPackage");
+                string expectedDialogBoxText = string.Format(CultureInfo.CurrentCulture, "{0}\n\nInside {1}.MenuItemCallback()", "NuSet", "ZinkoSoft.NuSet.NuSetPackage");
                 DialogBoxPurger purger = new DialogBoxPurger(NativeMethods.IDOK, expectedDialogBoxText);
 
                 try

@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell.Interop;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     // Last command type sent to the macro recorder. Note that there are more commands
     // recorded than is implied by this list. Commands in this list (other than

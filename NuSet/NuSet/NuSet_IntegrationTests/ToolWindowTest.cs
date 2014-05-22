@@ -42,12 +42,12 @@ namespace NuSet_IntegrationTests
         {
             UIThreadInvoker.Invoke((ThreadInvoker)delegate()
             {
-                CommandID toolWindowCmd = new CommandID(JamesZinkovitch.NuSet.GuidList.guidNuSetCmdSet, (int)JamesZinkovitch.NuSet.PkgCmdIDList.NuSetTools);
+                CommandID toolWindowCmd = new CommandID(ZinkoSoft.NuSet.GuidList.NuSetCommandGuid, (int)ZinkoSoft.NuSet.PkgCmdIDList.nusetTools);
 
                 TestUtils testUtils = new TestUtils();
                 testUtils.ExecuteCommand(toolWindowCmd);
 
-                Assert.IsTrue(testUtils.CanFindToolwindow(new Guid(JamesZinkovitch.NuSet.GuidList.guidToolWindowPersistanceString)));
+                Assert.IsTrue(testUtils.CanFindToolwindow(new Guid(ZinkoSoft.NuSet.GuidList.ToolWindowsPersistenceGuidString)));
 
             });
         }

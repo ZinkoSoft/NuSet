@@ -2,12 +2,12 @@
 // MUST match PkgCmdID.h
 using System;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     static class PkgCmdIDList
     {
-        public const uint NuSet =        0x100;
-        public const uint NuSetTools =    0x101;
+        public const uint nusetCommand =        0x100;
+        public const uint nusetTools =    0x101;
 
         // Menus
         public const int IDM_TLB_RTF = 0x0001;			// toolbar

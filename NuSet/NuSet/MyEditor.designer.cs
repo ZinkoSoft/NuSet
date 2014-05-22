@@ -1,4 +1,4 @@
-﻿namespace JamesZinkovitch.NuSet
+﻿namespace ZinkoSoft.NuSet
 {
     partial class MyEditor
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBoxCtrl = new JamesZinkovitch.NuSet.EditorTextBox();
+            this.richTextBoxCtrl = new ZinkoSoft.NuSet.EditorTextBox();
             this.SuspendLayout();
             // 
             // richTextBoxCtrl

@@ -3,7 +3,7 @@ using System;
 using System.Windows.Forms;
 using System.Security.Permissions;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     public partial class EditorTextBox : RichTextBox
     {

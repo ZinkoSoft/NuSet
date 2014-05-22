@@ -118,16 +118,16 @@
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
 
-      <Button guid="guidNuSetCmdSet" id="NuSet" priority="0x0100" type="Button">
+      <Button guid="guidNuSetCmdSet" id="nusetCommand" priority="0x0100" type="Button">
         <Parent guid="guidNuSetCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>NuSet Currently Library</ButtonText>
+          <ButtonText>NuSet Commands</ButtonText>
         </Strings>
       </Button>
 
 
-      <Button guid="guidNuSetCmdSet" id="NuSetTools" priority="0x0100" type="Button">
+      <Button guid="guidNuSetCmdSet" id="nusetTools" priority="0x0100" type="Button">
         <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1"/>
         <Icon guid="guidImages" id="bmpPic2" />
         <Strings>
@@ -277,10 +277,10 @@
 
   <Symbols>
     <!-- This is the package guid. -->
-    <GuidSymbol name="guidNuSetPkg" value="{1f75cb7d-4cfa-417e-b4fd-8ef58ffeec3d}" />
+    <GuidSymbol name="guidNuSetPkg" value="{721c8330-d7d8-417e-a9be-73337d4c7c6c}" />
     
     <!-- This is the guid used to group the menu commands together -->
-    <GuidSymbol name="guidNuSetCmdSet" value="{7aacd2f4-2aca-4fd7-b6af-0a93cd7f1687}">
+    <GuidSymbol name="guidNuSetCmdSet" value="{917f1e96-9b58-4832-8d6c-efe2d35eb2b6}">
 
       <IDSymbol name="IDM_TLB_RTF" value="0x0001" />
       <IDSymbol name="IDMX_RTF" value="0x0002" />
@@ -301,14 +301,14 @@
       <IDSymbol name="IDG_RTF_CTX_PROPS" value="0x100a" />
       <IDSymbol name="IDG_RTF_EDITOR_CMDS" value="0x100b" />
       <IDSymbol name="MyMenuGroup" value="0x1020" />
-      <IDSymbol name="NuSet" value="0x0100" />
-      <IDSymbol name="NuSetTools" value="0x0101" />
+      <IDSymbol name="nusetCommand" value="0x0100" />
+      <IDSymbol name="nusetTools" value="0x0101" />
       <IDSymbol name="commandIDStrike" value="0x0102" />
     </GuidSymbol>
     
-    <GuidSymbol name="guidNuSetEditorFactory" value="{702222a1-b719-40dd-a23f-69189243fc1e}" />
+    <GuidSymbol name="guidNuSetEditorFactory" value="{b7d1fbd6-7b4d-4872-93e5-92c3a427ca33}" />
     
-    <GuidSymbol name="guidImages" value="{e80947e1-3454-4c93-8bea-17f122ce4b26}" >
+    <GuidSymbol name="guidImages" value="{14c2e0ea-48ad-43ba-b3c9-c91c83863e58}" >
       <IDSymbol name="bmpPic1" value="1" />
       <IDSymbol name="bmpPic2" value="2" />
       <IDSymbol name="bmpPicSearch" value="3" />

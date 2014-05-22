@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell;
 
-namespace JamesZinkovitch.NuSet
+namespace ZinkoSoft.NuSet
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -36,12 +36,12 @@ namespace JamesZinkovitch.NuSet
               TemplateDir = "Templates", 
               NameResourceID = 105,
               DefaultName = "NuSet")]
-    [ProvideKeyBindingTable(GuidList.guidNuSetEditorFactoryString, 102)]
+    [ProvideKeyBindingTable(GuidList.NuSetEditorFactoryGuidString, 102)]
     // Our Editor supports Find and Replace therefore we need to declare support for LOGVIEWID_TextView.
     // This attribute declares that your EditorPane class implements IVsCodeWindow interface
     // used to navigate to find results from a "Find in Files" type of operation.
     [ProvideEditorLogicalView(typeof(EditorFactory), VSConstants.LOGVIEWID.TextView_string)]
-    [Guid(GuidList.guidNuSetPkgString)]
+    [Guid(GuidList.NuSetPackageGuidString)]
     public sealed class NuSetPackage : Package
     {
         /// <summary>
@@ -97,11 +97,11 @@ namespace JamesZinkovitch.NuSet
             if ( null != mcs )
             {
                 // Create the command for the menu item.
-                CommandID menuCommandID = new CommandID(GuidList.guidNuSetCmdSet, (int)PkgCmdIDList.NuSet);
+                CommandID menuCommandID = new CommandID(GuidList.NuSetCommandGuid, (int)PkgCmdIDList.nusetCommand);
                 MenuCommand menuItem = new MenuCommand(MenuItemCallback, menuCommandID );
                 mcs.AddCommand( menuItem );
                 // Create the command for the tool window
-                CommandID toolwndCommandID = new CommandID(GuidList.guidNuSetCmdSet, (int)PkgCmdIDList.NuSetTools);
+                CommandID toolwndCommandID = new CommandID(GuidList.NuSetCommandGuid, (int)PkgCmdIDList.nusetTools);
                 MenuCommand menuToolWin = new MenuCommand(ShowToolWindow, toolwndCommandID);
                 mcs.AddCommand( menuToolWin );
             }

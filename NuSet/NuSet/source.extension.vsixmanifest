@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="1f75cb7d-4cfa-417e-b4fd-8ef58ffeec3d" Version="1.0" Language="en-US" Publisher="James Zinkovitch" />
+    <Identity Id="721c8330-d7d8-417e-a9be-73337d4c7c6c" Version="1.0" Language="en-US" Publisher="ZinkoSoft" />
     <DisplayName>NuSet</DisplayName>
-    <Description>Easily transforms your class library into a NuGet package using PSake, NUnit, and 7zip</Description>
+    <Description>An open sourced Visual Studio 2013 Extension used to easily create NuGet packages out of class libraries
+</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />

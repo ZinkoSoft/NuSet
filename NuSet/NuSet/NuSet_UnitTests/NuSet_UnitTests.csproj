@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FEB743FB-AB60-4124-A363-149BC7F795C4}</ProjectGuid>
+    <ProjectGuid>{BD0423EA-1FA4-4ED5-B230-B92C7D890128}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NuSet_UnitTests</RootNamespace>
@@ -83,7 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NuSet.csproj">
-      <Project>{5E900031-EE18-406E-8BC0-E185D7081D5A}</Project>
+      <Project>{A7FB41B9-CA28-466D-98E7-60EFA08D12C0}</Project>
       <Name>NuSet</Name>
     </ProjectReference>
   </ItemGroup>
